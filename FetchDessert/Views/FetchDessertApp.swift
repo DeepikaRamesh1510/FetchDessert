@@ -13,7 +13,8 @@ import SwiftUI
 struct FetchDessertApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			DessertsDashboardView()
+				.environmentObject(ListViewModel())
         }
     }
 }
