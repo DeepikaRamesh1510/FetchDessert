@@ -49,7 +49,7 @@ struct MealDetailView: View {
 							Text("\(ingredient.name) - \(ingredient.measurement)")
 						}
 						.padding(0)
-						.background(Color.white) 
+						.background(Color.white)
 						.frame(
 							width: geo.size.width - 5,
 							height: geo.size.height - 50,
